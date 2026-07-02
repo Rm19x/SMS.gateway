@@ -1,0 +1,18 @@
+# ==============================================================================
+# PROJECT  : SMS gateway by Mr.Rm19
+# AUTHOR   : Mr.Rm19
+# GITHUB   : https://github.com/Rm19x
+# DESCRIPTION : SQLite database configuration.
+# ==============================================================================
+
+development:
+  adapter: sqlite3
+  database: db/development.sqlite3
+  pool: 5
+  timeout: 5000
+
+production:
+  adapter: sqlite3
+  database: db/production.sqlite3
+  pool: 5
+  timeout: 5000
