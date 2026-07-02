@@ -1,0 +1,6 @@
+# SMS gateway by Mr.Rm19 - Ignore rules
+.env
+db/*.sqlite3
+log/*.log
+tmp/
+node_modules/
