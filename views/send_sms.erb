@@ -1,0 +1,13 @@
+<h1>Kirim SMS</h1>
+<form action="/send" method="POST" enctype="multipart/form-data">
+    <label>Nomor Tujuan:</label><br>
+    <input type="text" name="phone"><br><br>
+    
+    <label>Pesan:</label><br>
+    <textarea name="message"></textarea><br><br>
+    
+    <label>Atau Upload CSV:</label><br>
+    <input type="file" name="csv_file"><br><br>
+    
+    <button type="submit">Kirim Pesan</button>
+</form>
